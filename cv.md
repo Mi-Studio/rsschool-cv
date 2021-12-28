@@ -4,6 +4,7 @@
 
 ### About myself
 The text will go here
+
 *********
 
 ### Contact me 
@@ -11,6 +12,7 @@ The text will go here
 **E-mail:** mitrokhina89@gmail.com   
 [Linkedin](https://www.linkedin.com/in/ilona-mytrokhina/)  
 [Behance](https://www.behance.net/webichino)  
+
 *********
 
 ## Hard skills
@@ -19,14 +21,20 @@ The text will go here
 * Javascript
 * Git, Github
 * Gulp
-* Adobe Photoshop, Figma
+* Adobe Photoshop, Figma  
+
 *********
 
 ## Courses
 * JavaScript/Front-end. Stage 0 - RS School 
 * Frontend Development - Ukrainian IT School 
 * Web Design Course - 3Second
-* English Course - Green Forest
+* English Course - Green Forest 
+
+*********
+
+## Code Example
+
 *********
 
 ## Languages
