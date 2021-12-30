@@ -35,6 +35,13 @@ The text will go here
 
 ## Code Example
 
+```
+function multiply(a, b){
+  a * b
+}
+multiply(5, 8);
+```
+
 *********
 
 ## Languages
