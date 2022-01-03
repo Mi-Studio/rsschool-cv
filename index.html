@@ -1,12 +1,468 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV Ilona Mytrokhina</title>
+    <link rel="icon" href="assets/favicon.ico">
+    <title>CV - Ilona Mytrokhina</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-    <h1>CV Ilona Mytrokhina</h1>
+    <header class="header">
+        <div class="container">
+            <nav class="main-menu">
+                <ul class="main-menu-wrapper">
+                    <li class="main-menu-item">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="main-menu-item">
+                        <a href="#experience">Experience</a>
+                    </li>
+                    <li class="main-menu-item">
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li class="main-menu-item">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="main-menu-item">
+                        <a href="#contacts">Contact me</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="hero">
+            <div class="container">
+                <div class="hero-wrapper">
+                    <aside class="left-column">
+                        <div class="avatar">
+                            <img src="assets/img/Ilona-main.jpg" alt="Ilona - Frontend Developer">
+                        </div>
+                        <section class="profile-info" id="about">
+                            <h3 class="column-title">About</h3>
+                            <p>Hi, my name is Ilona and I am looking for new opportunities on position front-end
+                                developer.</p>
+                        </section>
+                        <section class="language">
+                            <h3 class="language-title">Languages</h3>
+                            <nav>
+                                <ul class="language-inner">
+                                    <li>Russian - native</li>
+                                    <li>Ukrainian - native</li>
+                                    <li>English - B1</li>
+                                </ul>
+                            </nav>
+                        </section>
+                        <section class="contacts" id="contacts">
+                            <h3 class="contacts-title">Contact me</h3>
+                            <nav class="contacts-menu">
+                                <ul class="contacts-inner">
+                                    <li class="contacts-phone">
+                                        <div class="contacts-img">
+                                            <img src="./assets/img/icons/smartphone.png" alt="Phone icon">
+                                        </div>
+                                        <a href="tel:+375256105117">+375-25-610-51-17</a>
+                                    </li>
+                                    <li class="contacts-mail">
+                                        <div class="contacts-img">
+                                            <img src="./assets/img/icons/email.png" alt="E-mail icon">
+                                        </div>
+                                        <a href="mailto:mitrokhina89@gmail.com">mitrokhina89@gmail.com</a>
+                                    </li>
+                                    <li class="contacts-linkedin">
+                                        <div class="contacts-img">
+                                            <img src="./assets/img/icons/linkedin.png" alt="Linkedin icon">
+                                        </div>
+                                        <a href="https://www.linkedin.com/in/ilona-mytrokhina/"
+                                            target="_blank">Linkedin</a>
+                                    </li>
+                                    <li class="contacts-github">
+                                        <div class="contacts-img">
+                                            <img src="./assets/img/icons/github.png" alt="Github icon">
+                                        </div>
+                                        <a href="https://github.com/Mi-Studio" target="_blank">Github</a>
+                                    </li>
+                                    <li class="contacts-behance">
+                                        <div class="contacts-img">
+                                            <img src="./assets/img/icons/behance.png" alt="Behance icon">
+                                        </div>
+                                        <a href="https://www.behance.net/webichino" target="_blank">Behance</a>
+                                    </li>
+                                    <li class="contacts-discord">
+                                        <div class="contacts-img">
+                                            <img src="./assets/img/icons/discord.png" alt="Discord icon">
+                                        </div>
+                                        Discord - Ilona Mytrokhina (@mi-studio)
+                                    </li>
+                                </ul>
+                            </nav>
+                        </section>
+                        <section class="skills" id="skills">
+                            <h3 class="skills-title">My skills</h3>
+                            <nav>
+                                <ul class="skills-inner">
+                                    <li>
+                                        <div class="skills-wrapper">
+                                            <div class="skills-name">HTML, HTML5</div>
+                                            <div class="skills-rate">
+                                                <div class="skills-dot"></div>
+                                                <div class="skills-dot"></div>
+                                                <div class="skills-dot"></div>
+                                                <div class="skills-dot"></div>
+                                                <div class="skills-dot skills-dot-light"></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="skills-wrapper">
+                                            <div class="skills-name">CSS, CSS3</div>
+                                            <div class="skills-rate">
+                                                <div class="skills-dot"></div>
+                                                <div class="skills-dot"></div>
+                                                <div class="skills-dot"></div>
+                                                <div class="skills-dot"></div>
+                                                <div class="skills-dot skills-dot-light"></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="skills-wrapper">
+                                            <div class="skills-name">SASS/SCSS</div>
+                                            <div class="skills-rate">
+                                                <div class="skills-dot"></div>
+                                                <div class="skills-dot"></div>
+                                                <div class="skills-dot"></div>
+                                                <div class="skills-dot"></div>
+                                                <div class="skills-dot skills-dot-light"></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="skills-wrapper">
+                                            <div class="skills-name">BEM-metodology</div>
+                                            <div class="skills-rate">
+                                                <div class="skills-dot"></div>
+                                                <div class="skills-dot"></div>
+                                                <div class="skills-dot"></div>
+                                                <div class="skills-dot"></div>
+                                                <div class="skills-dot skills-dot-light"></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="skills-wrapper">
+                                            <div class="skills-name">Bootstrap 4</div>
+                                            <div class="skills-rate">
+                                                <div class="skills-dot"></div>
+                                                <div class="skills-dot"></div>
+                                                <div class="skills-dot"></div>
+                                                <div class="skills-dot skills-dot-light"></div>
+                                                <div class="skills-dot skills-dot-light"></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="skills-wrapper">
+                                            <div class="skills-name">JavaScript</div>
+                                            <div class="skills-rate">
+                                                <div class="skills-dot"></div>
+                                                <div class="skills-dot skills-dot-light"></div>
+                                                <div class="skills-dot skills-dot-light"></div>
+                                                <div class="skills-dot skills-dot-light"></div>
+                                                <div class="skills-dot skills-dot-light"></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="skills-wrapper">
+                                            <div class="skills-name">Photoshop, Figma</div>
+                                            <div class="skills-rate">
+                                                <div class="skills-dot"></div>
+                                                <div class="skills-dot"></div>
+                                                <div class="skills-dot"></div>
+                                                <div class="skills-dot"></div>
+                                                <div class="skills-dot skills-dot-light"></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="skills-wrapper">
+                                            <div class="skills-name">Avocode</div>
+                                            <div class="skills-rate">
+                                                <div class="skills-dot"></div>
+                                                <div class="skills-dot"></div>
+                                                <div class="skills-dot"></div>
+                                                <div class="skills-dot"></div>
+                                                <div class="skills-dot"></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="skills-wrapper">
+                                            <div class="skills-name">GULP</div>
+                                            <div class="skills-rate">
+                                                <div class="skills-dot"></div>
+                                                <div class="skills-dot"></div>
+                                                <div class="skills-dot"></div>
+                                                <div class="skills-dot skills-dot-light"></div>
+                                                <div class="skills-dot skills-dot-light"></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="skills-wrapper">
+                                            <div class="skills-name">GIT</div>
+                                            <div class="skills-rate">
+                                                <div class="skills-dot"></div>
+                                                <div class="skills-dot"></div>
+                                                <div class="skills-dot"></div>
+                                                <div class="skills-dot skills-dot-light"></div>
+                                                <div class="skills-dot skills-dot-light"></div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </section>
+                        <section class="code">
+                            <h3 class="code-title">Code example</h3>
+                            <div class="code-wrapper">
+                                <pre>
+                                    function multiply(a, b){
+                                        a * b
+                                    };
+                                    multiply(5, 8);
+                                </pre>
+                            </div>
+                        </section>
+                    </aside>
+                    <div class="main-column">
+                        <h1><span>Ilona</span> Mytrokhina</h1>
+                        <h2 class="main-column-description">Junior Front-End Developer</h2>
+                        <section class="work-experience" id="experience">
+                            <h2 class="main-column-title">Work experience</h2>
+                            <div class="details-wrapper">
+                                <div class="details-item">
+                                    <div class="details-column1">
+                                        <div class="experience-date">2021</div>
+                                        <p>Freelance</p>
+                                    </div>
+                                    <div class="details-column2">
+                                        <h3>HTML-coder</h3>
+                                        <p>Coding of landings, business card websites, internet-shops</p>
+                                    </div>
+                                </div>
+                                <div class="details-item">
+                                    <div class="details-column1">
+                                        <div class="experience-date">Jun 2013 - Mar 2020</div>
+                                        <p>Freelance</p>
+                                    </div>
+                                    <div class="details-column2">
+                                        <h3>UI/UX Designer</h3>
+                                        <p>Creating web-design with programs Photoshop, Figma.</p>
+                                        <p>Creating web-design, visual coding websites with service Webflow.</p>
+                                        <p>Visual creating landing pages with a program Adobe Muse.</p>
+                                        <p>Creating theme layouts for CMS Joomla with a visual program Themler.</p>
+                                    </div>
+                                </div>
+                                <div class="details-item">
+                                    <div class="details-column1">
+                                        <div class="experience-date">Jun 2013 - May 2017</div>
+                                        <p>Freelance</p>
+                                    </div>
+                                    <div class="details-column2">
+                                        <h3>Context advertising specialist</h3>
+                                        <p>Creation and support context advertising in Google Ads, Yandex Direct.</p>
+                                    </div>
+                                </div>
+                                <div class="details-item">
+                                    <div class="details-column1">
+                                        <div class="experience-date">May 2011 - Jun 2012</div>
+                                        <p>Internet Marketing Agency "UpSale"</p>
+                                    </div>
+                                    <div class="details-column2">
+                                        <h3>Project-manager</h3>
+                                        <p>Finding and supporting clients for context advertisement (Google Ads, Yandex
+                                            Direct).</p>
+                                        <p>Communication with different departments (department of creation web-sites,
+                                            department of context advertisement, SEO, social-media, etc).</p>
+                                        <p>Live meetings for discussion details of services ordering with new clients.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="details-item">
+                                    <div class="details-column1">
+                                        <div class="experience-date">Dec 2010 - Mar 2011</div>
+                                        <p>Data Center "SteepHost"</p>
+                                    </div>
+                                    <div class="details-column2">
+                                        <h3>Manager</h3>
+                                        <p>Adding information about company on ads-desks, forums.</p>
+                                        <p>Content-management of websites.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="education">
+                            <h2 class="main-column-title">My education</h2>
+                            <div class="details-wrapper">
+                                <div class="details-item">
+                                    <div class="details-column1">
+                                        <div class="experience-date">2005-2010</div>
+                                        <p>Master's Degree</p>
+                                    </div>
+                                    <div class="details-column2">
+                                        <h3>Kharkiv Academy of Interior Forces</h3>
+                                        <p>Faculty of Economics and Management</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </section>
+                        <section class="courses">
+                            <h2 class="main-column-title">Courses</h2>
+                            <div class="details-wrapper">
+                                <div class="details-item">
+                                    <div class="details-column1">
+                                        <div class="experience-date">Dec 2021 - now</div>
+                                        <p>Rolling Scopes</p>
+                                    </div>
+                                    <div class="details-column2">
+                                        <h3>JavaScript/Front-end. Stage 0</h3>
+                                        <p>I am learning GIT, GITHUB. HTML, CSS, JavaScript</p>
+                                    </div>
+                                </div>
+                                <div class="details-item">
+                                    <div class="details-column1">
+                                        <div class="experience-date">2021</div>
+                                        <p>Ukrainian IT School</p>
+                                    </div>
+                                    <div class="details-column2">
+                                        <h3>Front-end Web Development. Basics</h3>
+                                        <p>I learnt HTML, CSS, Bootstrap, jQuery Plugins. I finished 3 different
+                                            projects.</p>
+                                    </div>
+                                </div>
+                                <div class="details-item">
+                                    <div class="details-column1">
+                                        <div class="experience-date">2020</div>
+                                        <p>3Second</p>
+                                    </div>
+                                    <div class="details-column2">
+                                        <h3>Web-Design Course</h3>
+                                        <p>I learnt modern tendences of UI/UX Web-Design for creating Landing Pages,
+                                            worked with a program Adobe Photoshop.</p>
+                                    </div>
+                                </div>
+                                <div class="details-item">
+                                    <div class="details-column1">
+                                        <div class="experience-date">2018</div>
+                                        <p>Green Forest</p>
+                                    </div>
+                                    <div class="details-column2">
+                                        <h3>English Course</h3>
+                                        <p>I succesfully passed pre-intermedia English course</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="projects" id="projects">
+            <div class="container">
+                <div class="projects-box">
+                    <h2 class="projects-title">My latest projects</h2>
+                    <div class="projects-wrapper">
+                        <div class="projects-item">
+                            <div class="project-title">Landing page for a private advocate</div>
+                            <div class="projects-img">
+                                <a href="https://advokat-tiunova.ru/" target="_blank">
+                                    <img src="./assets/img/portfolio/laywer-project.jpg"
+                                        alt="Landing page for a private advocate">
+                                </a>
+                            </div>
+                            <div class="project-description">
+                                <p>Technologies: HTML5, CSS3, plug-in Slider Swiper</p>
+                            </div>
+                        </div>
+                        <div class="projects-item">
+                            <div class="project-title">Landing page for an&nbsp;architectural bereau</div>
+                            <div class="projects-img">
+                                <a href="https://archig.ru/" target="_blank">
+                                    <img src="./assets/img/portfolio/archig-project.jpg"
+                                        alt="Landing page for an architectural bereau">
+                                </a>
+                            </div>
+                            <div class="project-description">
+                                <p>Technologies: HTML5, CSS3, plug-in Slider Swiper</p>
+                            </div>
+                        </div>
+                        <div class="projects-item">
+                            <div class="project-title">Template for inernet-shop. Clothes for dogs.</div>
+                            <div class="projects-img">
+                                <a href="http://saleco.beget.tech/dogshop/index.html" target="_blank">
+                                    <img src="./assets/img/portfolio/pet-shop.jpg"
+                                        alt="Template for inernet-shop. Clothes for dogs.">
+                                </a>
+                            </div>
+                            <div class="project-description">
+                                <p><a href="http://saleco.beget.tech/dogshop/index.html" target="_blank">Main page</a>,
+                                    <a href="http://saleco.beget.tech/dogshop/catalog.html" target="_blank">Category
+                                        page</a>,
+                                    <a href="http://saleco.beget.tech/dogshop/product.html" target="_blank">Product
+                                        page</a>
+                                </p>
+                                <p>Technologies: HTML5, CSS3, BEM-metodology, jQuery</p>
+                            </div>
+                        </div>
+                        <div class="projects-item">
+                            <div class="project-title">Template development for a&nbsp;dental clinic</div>
+                            <div class="projects-img">
+                                <a href="">
+                                    <img src="./assets/img/portfolio/stomatology-clinic.jpg"
+                                        alt="Coding for Stomatology Clinic">
+                                </a>
+                            </div>
+                            <div class="project-description">
+                                <p>Technologies: HTML5, CSS3, jQuery, plug in slider Swiper</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <div class="footer-item">
+                    <div class="footer-github">
+                        <a href="https://github.com/Mi-Studio" target="_blank">
+                            <img src="./assets/img/icons/github.png" alt="Github Icon">
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-item">CV - Ilona Mytrokhina. © 2022</div>
+                <div class="footer-item">
+                    <div class="footer-logo">
+                        <a href="https://rs.school/js/" target="_blank">
+                            <img src="./assets/img/icons/rs_school_js.svg" alt="Logo of RS School">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
+
 </html>
